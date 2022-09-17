@@ -1,11 +1,11 @@
-#import packages
+#importing packages
 import pandas as pd
 import streamlit as st
 import random
 import base64
 
 
-#add images
+#adding images
 def add_bg_from_local(image_file):
     with open(image_file, "rb") as image_file:
         encoded_string = base64.b64encode(image_file.read())
@@ -27,7 +27,7 @@ st.image('header.jpg',width=700)
 #loading qatareats dataset
 df = pd.read_csv('qatareatss.csv')
 
-#lists for every cuisine
+#list for each cuisine
 American = df['American'].dropna().tolist()
 Chinese = df['Chinese'].dropna().tolist()
 French = df['French'].dropna().tolist()
