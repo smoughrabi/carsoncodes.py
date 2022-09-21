@@ -201,7 +201,7 @@ if yay:
     st.markdown("<h1 style='text-align: center; color: #f40257 ;'>Sa7tein!</h1>", unsafe_allow_html=True)
 
 with st.expander("Kind reminder to always tip your waiters, expand for Tip Calculator"):
-    st.image('Five/line.jpg')
+    st.image('Five/line.JPG')
     col4,col5=st.columns(2)
     col4.markdown("**Insert tip %**")
     slider =col4.slider("")
