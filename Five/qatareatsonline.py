@@ -24,7 +24,7 @@ add_bg_from_local('Five/background.JPG')
 st.image('Five/header.JPG',width=700)
 
 #loading qatareats dataset
-df = pd.read_csv('qatareatss.csv')
+df = pd.read_csv('Five/qatareatss.csv')
 
 #lists for every cuisine
 American = df['American'].dropna().tolist()
