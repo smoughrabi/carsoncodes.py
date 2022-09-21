@@ -19,9 +19,9 @@ def add_bg_from_local(image_file):
     st.markdown(
     f"""<style>.stApp {{background-image: url(data:image/{"jpg"};base64,{encoded_string.decode()});background-size: cover}}</style>""",unsafe_allow_html=True)
 
-add_bg_from_local('background.jpg')
+add_bg_from_local('Five/background.JPG')
 
-st.image('header.jpg',width=700)
+st.image('Five/header.JPG',width=700)
 
 #loading qatareats dataset
 df = pd.read_csv('qatareatss.csv')
