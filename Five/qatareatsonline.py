@@ -95,7 +95,7 @@ with col1:
         #col1,col2,col3 = st.columns(3)
         #with col1:
 
-        #nay = st.button("Unsatisfied? Click me for more options!")
+        nay = st.button("Unsatisfied? Click me for more options!")
     elif cuisineselector == 'Chinese'and not yay:
         st.subheader(*random.sample(expression_list,k=1))
         st.write(*random.sample(Chinese,k=1))
