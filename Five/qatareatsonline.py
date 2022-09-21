@@ -5,12 +5,12 @@ import random
 import base64
 
 #hiding header
-hide_decoration_bar_style = '''
-    <style>
-    header {visibility: hidden;}
-    </style>'''
+#hide_decoration_bar_style = '''
+   # <style>
+   # header {visibility: hidden;}
+    #</style>'''
 
-st.markdown(hide_decoration_bar_style, unsafe_allow_html=True)
+#st.markdown(hide_decoration_bar_style, unsafe_allow_html=True)
 
 #adding images
 def add_bg_from_local(image_file):
