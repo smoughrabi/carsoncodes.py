@@ -44,7 +44,7 @@ col1,col2,col3 = st.columns([1,2,1])
 with col2:
     button = st.button("CLICK ME")
     if button:
-        number = random.randint(1,2)
+        number = random.randint(1,1)
         if number == 1:
             file_ = open("Eight/responses/as i see it yes.gif", "rb")
             contents = file_.read()
