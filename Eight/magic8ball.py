@@ -51,8 +51,8 @@ with col2:
             data_url = base64.b64encode(contents).decode("utf-8")
             file_.close()
             st.markdown(
-            f'<img src="data:image/gif;base64,{data_url}" alt="cat gif">',
-            unsafe_allow_html=True, "<style> height:3em; width:20em;</style>"
+            f'<img src="data:image/gif;base64,{data_url}" alt="cat gif">', "<style> height:3em; width:20em;</style>",
+            unsafe_allow_html=True,
             )
             #st.image("Eight/responses/as i see it yes.gif")
         elif number == 2:
