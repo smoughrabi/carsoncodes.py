@@ -216,7 +216,7 @@ with col2:
             )
             #st.image("Eight/responses/without a doubt.gif")
         elif number == 18:
-             file_ = open("Eight/responses/yes definitley.gif", "rb")
+            file_ = open("Eight/responses/yes definitley.gif", "rb")
             contents = file_.read()
             data_url = base64.b64encode(contents).decode("utf-8")
             file_.close()
