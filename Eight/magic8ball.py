@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 import base64
 
-#responses = pd.read_csv("/Users/sarahelmoughrabi/Documents/CarsonCodes/Eight/8ballresponses.csv")
+#responses = pd.read_csv("Eight/8ballresponses.csv")
 #responses = responses['responses'].tolist()
 
 #hiding header
@@ -21,7 +21,7 @@ def add_bg_from_local(image_file):
     st.markdown(
     f"""<style>.stApp {{background-image: url(data:image/{"jpg"};base64,{encoded_string.decode()});background-size: cover}}</style>""",unsafe_allow_html=True)
 
-add_bg_from_local('/Users/sarahelmoughrabi/Documents/CarsonCodes/Eight/bg.png')
+add_bg_from_local('Eight/bg.png')
 
 #modifying button color, size, and text
 m = st.markdown("""
@@ -34,7 +34,7 @@ div.stButton > button:first-child {
 }
 </style>""", unsafe_allow_html=True)
 
-st.image('/Users/sarahelmoughrabi/Documents/CarsonCodes/Eight/title.JPG')
+st.image('Eight/title.JPG')
 st.write("")
 st.write("")
 st.write("")
@@ -46,40 +46,40 @@ with col2:
     if button:
         number = random.randint(1,19)
         if number == 1:
-            st.image("/Users/sarahelmoughrabi/Documents/CarsonCodes/Eight/responses/as i see it yes.gif")
+            st.image("Eight/responses/as i see it yes.gif")
         elif number == 2:
-            st.image("/Users/sarahelmoughrabi/Documents/CarsonCodes/Eight/responses/ask again later.gif")
+            st.image("Eight/responses/ask again later.gif")
         elif number == 3:
-            st.image("/Users/sarahelmoughrabi/Documents/CarsonCodes/Eight/responses/cannot predict now.gif")
+            st.image("Eight/responses/cannot predict now.gif")
         elif number == 4:
-            st.image("/Users/sarahelmoughrabi/Documents/CarsonCodes/Eight/responses/concentrate and ask again.gif")
+            st.image("Eight/responses/concentrate and ask again.gif")
         elif number == 5:
-            st.image("/Users/sarahelmoughrabi/Documents/CarsonCodes/Eight/responses/don't count on it.gif")
+            st.image("Eight/responses/don't count on it.gif")
         elif number == 6:
-            st.image("/Users/sarahelmoughrabi/Documents/CarsonCodes/Eight/responses/it is certain.gif")
+            st.image("Eight/responses/it is certain.gif")
         elif number == 7:
-            st.image("/Users/sarahelmoughrabi/Documents/CarsonCodes/Eight/responses/it is decidedly so.gif")
+            st.image("Eight/responses/it is decidedly so.gif")
         elif number == 8:
-            st.image("/Users/sarahelmoughrabi/Documents/CarsonCodes/Eight/responses/most likley.gif")
+            st.image("Eight/responses/most likley.gif")
         elif number == 9:
-            st.image("/Users/sarahelmoughrabi/Documents/CarsonCodes/Eight/responses/my reply is no.gif")
+            st.image("Eight/responses/my reply is no.gif")
         elif number == 10:
-            st.image("/Users/sarahelmoughrabi/Documents/CarsonCodes/Eight/responses/my sources say no.gif")
+            st.image("Eight/responses/my sources say no.gif")
         elif number == 11:
-            st.image("/Users/sarahelmoughrabi/Documents/CarsonCodes/Eight/responses/no.gif")
+            st.image("Eight/responses/no.gif")
         elif number == 12:
-            st.image("/Users/sarahelmoughrabi/Documents/CarsonCodes/Eight/responses/outlook good.gif")
+            st.image("Eight/responses/outlook good.gif")
         elif number == 13:
-            st.image("/Users/sarahelmoughrabi/Documents/CarsonCodes/Eight/responses/outlook not so good.gif")
+            st.image("Eight/responses/outlook not so good.gif")
         elif number == 14:
-            st.image("/Users/sarahelmoughrabi/Documents/CarsonCodes/Eight/responses/reply hazy, try again later.gif")
+            st.image("Eight/responses/reply hazy, try again later.gif")
         elif number == 15:
-            st.image("/Users/sarahelmoughrabi/Documents/CarsonCodes/Eight/responses/signs point to yes.gif")
+            st.image("Eight/responses/signs point to yes.gif")
         elif number == 16:
-            st.image("/Users/sarahelmoughrabi/Documents/CarsonCodes/Eight/responses/very doubtful.gif")
+            st.image("Eight/responses/very doubtful.gif")
         elif number == 17:
-            st.image("/Users/sarahelmoughrabi/Documents/CarsonCodes/Eight/responses/without a doubt.gif")
+            st.image("Eight/responses/without a doubt.gif")
         elif number == 18:
-            st.image("/Users/sarahelmoughrabi/Documents/CarsonCodes/Eight/responses/yes definitley.gif")
+            st.image("Eight/responses/yes definitley.gif")
         elif number == 19:
-            st.image("/Users/sarahelmoughrabi/Documents/CarsonCodes/Eight/responses/yes.gif")
+            st.image("Eight/responses/yes.gif")
