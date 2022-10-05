@@ -51,43 +51,187 @@ with col2:
             data_url = base64.b64encode(contents).decode("utf-8")
             file_.close()
             st.markdown(
-            f'<img src="data:image/gif;base64,{data_url}" alt="cat gif">', "<style> height:3em; width:20em;</style>",
+            f'<img src="data:image/gif;base64,{data_url}" alt="8ball gif">',
             unsafe_allow_html=True,
             )
             #st.image("Eight/responses/as i see it yes.gif")
         elif number == 2:
-            st.image("Eight/responses/ask again later.gif")
+            file_ = open("Eight/responses/ask again later.gif", "rb")
+            contents = file_.read()
+            data_url = base64.b64encode(contents).decode("utf-8")
+            file_.close()
+            st.markdown(
+            f'<img src="data:image/gif;base64,{data_url}" alt="8ball gif">',
+            unsafe_allow_html=True,
+            )
+            #st.image("Eight/responses/ask again later.gif")
         elif number == 3:
-            st.image("Eight/responses/cannot predict now.gif")
+            file_ = open("Eight/responses/cannot predict now.gif", "rb")
+            contents = file_.read()
+            data_url = base64.b64encode(contents).decode("utf-8")
+            file_.close()
+            st.markdown(
+            f'<img src="data:image/gif;base64,{data_url}" alt="8ball gif">',
+            unsafe_allow_html=True,
+            )
+            #st.image("Eight/responses/cannot predict now.gif")
         elif number == 4:
-            st.image("Eight/responses/concentrate and ask again.gif")
+            file_ = open("Eight/responses/concentrate and ask again.gif", "rb")
+            contents = file_.read()
+            data_url = base64.b64encode(contents).decode("utf-8")
+            file_.close()
+            st.markdown(
+            f'<img src="data:image/gif;base64,{data_url}" alt="8ball gif">',
+            unsafe_allow_html=True,
+            )
+            #st.image("Eight/responses/concentrate and ask again.gif")
         elif number == 5:
-            st.image("Eight/responses/don't count on it.gif")
+            file_ = open("Eight/responses/don't count on it.gif", "rb")
+            contents = file_.read()
+            data_url = base64.b64encode(contents).decode("utf-8")
+            file_.close()
+            st.markdown(
+            f'<img src="data:image/gif;base64,{data_url}" alt="8ball gif">',
+            unsafe_allow_html=True,
+            )
+            #st.image("Eight/responses/don't count on it.gif")
         elif number == 6:
-            st.image("Eight/responses/it is certain.gif")
+            file_ = open("Eight/responses/it is certain.gif", "rb")
+            contents = file_.read()
+            data_url = base64.b64encode(contents).decode("utf-8")
+            file_.close()
+            st.markdown(
+            f'<img src="data:image/gif;base64,{data_url}" alt="8ball gif">',
+            unsafe_allow_html=True,
+            )
+            #st.image("Eight/responses/it is certain.gif")
         elif number == 7:
-            st.image("Eight/responses/it is decidedly so.gif")
+            file_ = open("Eight/responses/it is decidedly so.gif", "rb")
+            contents = file_.read()
+            data_url = base64.b64encode(contents).decode("utf-8")
+            file_.close()
+            st.markdown(
+            f'<img src="data:image/gif;base64,{data_url}" alt="8ball gif">',
+            unsafe_allow_html=True,
+            )
+            #st.image("Eight/responses/it is decidedly so.gif")
         elif number == 8:
-            st.image("Eight/responses/most likley.gif")
+            file_ = open("Eight/responses/most likley.gif", "rb")
+            contents = file_.read()
+            data_url = base64.b64encode(contents).decode("utf-8")
+            file_.close()
+            st.markdown(
+            f'<img src="data:image/gif;base64,{data_url}" alt="8ball gif">',
+            unsafe_allow_html=True,
+            )
+            #st.image("Eight/responses/most likley.gif")
         elif number == 9:
-            st.image("Eight/responses/my reply is no.gif")
+            file_ = open("Eight/responses/my reply is no.gif", "rb")
+            contents = file_.read()
+            data_url = base64.b64encode(contents).decode("utf-8")
+            file_.close()
+            st.markdown(
+            f'<img src="data:image/gif;base64,{data_url}" alt="8ball gif">',
+            unsafe_allow_html=True,
+            )
+            #st.image("Eight/responses/my reply is no.gif")
         elif number == 10:
-            st.image("Eight/responses/my sources say no.gif")
+            file_ = open("Eight/responses/my sources say no.gif", "rb")
+            contents = file_.read()
+            data_url = base64.b64encode(contents).decode("utf-8")
+            file_.close()
+            st.markdown(
+            f'<img src="data:image/gif;base64,{data_url}" alt="8ball gif">',
+            unsafe_allow_html=True,
+            )
+            #st.image("Eight/responses/my sources say no.gif")
         elif number == 11:
-            st.image("Eight/responses/no.gif")
+            file_ = open("Eight/responses/no.gif", "rb")
+            contents = file_.read()
+            data_url = base64.b64encode(contents).decode("utf-8")
+            file_.close()
+            st.markdown(
+            f'<img src="data:image/gif;base64,{data_url}" alt="8ball gif">',
+            unsafe_allow_html=True,
+            )
+            #st.image("Eight/responses/no.gif")
         elif number == 12:
-            st.image("Eight/responses/outlook good.gif")
+            file_ = open("Eight/responses/outlook good.gif", "rb")
+            contents = file_.read()
+            data_url = base64.b64encode(contents).decode("utf-8")
+            file_.close()
+            st.markdown(
+            f'<img src="data:image/gif;base64,{data_url}" alt="8ball gif">',
+            unsafe_allow_html=True,
+            )
+            #st.image("Eight/responses/outlook good.gif")
         elif number == 13:
-            st.image("Eight/responses/outlook not so good.gif")
+            file_ = open("Eight/responses/outlook not so good.gif", "rb")
+            contents = file_.read()
+            data_url = base64.b64encode(contents).decode("utf-8")
+            file_.close()
+            st.markdown(
+            f'<img src="data:image/gif;base64,{data_url}" alt="8ball gif">',
+            unsafe_allow_html=True,
+            )
+            #st.image("Eight/responses/outlook not so good.gif")
         elif number == 14:
-            st.image("Eight/responses/reply hazy, try again later.gif")
+            file_ = open("Eight/responses/reply hazy, try again later.gif", "rb")
+            contents = file_.read()
+            data_url = base64.b64encode(contents).decode("utf-8")
+            file_.close()
+            st.markdown(
+            f'<img src="data:image/gif;base64,{data_url}" alt="8ball gif">',
+            unsafe_allow_html=True,
+            )
+            #st.image("Eight/responses/reply hazy, try again later.gif")
         elif number == 15:
-            st.image("Eight/responses/signs point to yes.gif")
+            file_ = open("Eight/responses/signs point to yes.gif", "rb")
+            contents = file_.read()
+            data_url = base64.b64encode(contents).decode("utf-8")
+            file_.close()
+            st.markdown(
+            f'<img src="data:image/gif;base64,{data_url}" alt="8ball gif">',
+            unsafe_allow_html=True,
+            )
+            #st.image("Eight/responses/signs point to yes.gif")
         elif number == 16:
-            st.image("Eight/responses/very doubtful.gif")
+            file_ = open("Eight/responses/very doubtful.gif", "rb")
+            contents = file_.read()
+            data_url = base64.b64encode(contents).decode("utf-8")
+            file_.close()
+            st.markdown(
+            f'<img src="data:image/gif;base64,{data_url}" alt="8ball gif">',
+            unsafe_allow_html=True,
+            )
+            #st.image("Eight/responses/very doubtful.gif")
         elif number == 17:
-            st.image("Eight/responses/without a doubt.gif")
+            file_ = open("Eight/responses/without a doubt.gif", "rb")
+            contents = file_.read()
+            data_url = base64.b64encode(contents).decode("utf-8")
+            file_.close()
+            st.markdown(
+            f'<img src="data:image/gif;base64,{data_url}" alt="8ball gif">',
+            unsafe_allow_html=True,
+            )
+            #st.image("Eight/responses/without a doubt.gif")
         elif number == 18:
-            st.image("Eight/responses/yes definitley.gif")
+             file_ = open("Eight/responses/yes definitley.gif", "rb")
+            contents = file_.read()
+            data_url = base64.b64encode(contents).decode("utf-8")
+            file_.close()
+            st.markdown(
+            f'<img src="data:image/gif;base64,{data_url}" alt="8ball gif">',
+            unsafe_allow_html=True,
+            )
+            #st.image("Eight/responses/yes definitley.gif")
         elif number == 19:
-            st.image("Eight/responses/yes.gif")
+            file_ = open("Eight/responses/yes.gif", "rb")
+            contents = file_.read()
+            data_url = base64.b64encode(contents).decode("utf-8")
+            file_.close()
+            st.markdown(
+            f'<img src="data:image/gif;base64,{data_url}" alt="8ball gif">',
+            unsafe_allow_html=True,
+            )
+            #st.image("Eight/responses/yes.gif")
